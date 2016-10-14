@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option java_package = "com.celsius.tsp.proto.model";
 
-import "vertex.proto";
+import "model/vertex.proto";
 
 message TravellingSalesmanSolution {
     repeated Vertex vertices = 1;
