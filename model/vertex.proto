@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-option java_package = "com.celsius.tsp.proto.model";
-
-message Vertex {
-    int32 id = 1;
-}
