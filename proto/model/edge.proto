@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.celsius.tsp.proto.model";
+
+message Edge {
+    int32 departure_vertice_id = 1;
+    int32 arrival_vertice_id = 2;
+    int32 value = 3;
+}

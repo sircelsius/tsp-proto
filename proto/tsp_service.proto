@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.celsius.tsp.proto.service";
+
+import "model/travelling_salesman_problem.proto";
+import "model/travelling_salesman_solution.proto";
+
+service TravellingSalesmanProblemService {
+    rpc solve( TravellingSalesmanProblem ) returns ( TravellingSalesmanSolution ) {}
+}
