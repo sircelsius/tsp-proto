@@ -5,5 +5,5 @@ option java_package = "com.celsius.tsp.proto.model";
 import "vertex.proto";
 
 message TravellingSalesmanSolution {
-    repeated Vertex vertices;
+    repeated Vertex vertices = 1;
 }
