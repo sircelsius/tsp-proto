@@ -1,9 +1,10 @@
 syntax = "proto3";
 
 option java_package = "com.celsius.tsp.proto";
+package com.celsius.tsp.proto;
 
 service TravellingSalesmanProblemService {
-    rpc solve( TravellingSalesmanProblem ) returns ( TravellingSalesmanSolution ) {}
+    rpc Solve( TravellingSalesmanProblem ) returns ( TravellingSalesmanSolution ) {}
 }
 
 message Edge {
