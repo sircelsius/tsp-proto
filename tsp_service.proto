@@ -27,4 +27,5 @@ message TravellingSalesmanProblem {
 
 message TravellingSalesmanSolution {
     repeated Vertex vertices = 1;
+    int32 cost = 2;
 }
